@@ -1,0 +1,65 @@
+.header {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+}
+
+.headerlogo {
+    margin-top: 4px;
+    padding: 0 30px;
+}
+
+.headerbutton {
+    cursor: pointer;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.main {
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.footer {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: 1s;
+}
